@@ -42,15 +42,15 @@ const QuizCss = () => {
       <div className="w-10/12 mx-auto pt-28 pb-10 h-full">
         <div className=" rounded-xl shadow-lg p-7 bg-blue-600 w-full">
           <div>
-            <h1 className="text-6xl font-semibold text-white text-center">
-              Selamat mengerjakan Quiz CSS
+            <h1 className="md:text-6xl text-lg font-semibold text-white text-center">
+              Selamat mengerjakan Quiz Css
             </h1>
           </div>
         </div>
       </div>
-      <div className="w-full h-full flex flex-wrap gap-16 justify-center pb-10">
+      <div className="w-full h-full md:grid md:grid-cols-3 md:grid-rows-4 md:justify-items-center flex flex-col items-center gap-4">
         <div
-          className="w-1/4  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
+          className="w-3/4 h-full  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
           id="soal1"
         >
           <div>
@@ -82,7 +82,7 @@ const QuizCss = () => {
           </div>
         </div>
         <div
-          className="w-1/4  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
+          className="w-3/4  h-full  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
           id="soal2"
         >
           <div>
@@ -114,7 +114,7 @@ const QuizCss = () => {
           </div>
         </div>
         <div
-          className="w-1/4  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
+          className="w-3/4  h-full  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
           id="soal3"
         >
           <div>
@@ -146,7 +146,7 @@ const QuizCss = () => {
           </div>
         </div>
         <div
-          className="w-1/4  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
+          className="w-3/4  h-full  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
           id="soal4"
         >
           <div>
@@ -178,7 +178,7 @@ const QuizCss = () => {
           </div>
         </div>
         <div
-          className="w-1/4  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
+          className="w-3/4  h-full  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
           id="soal5"
         >
           <div>
@@ -210,7 +210,7 @@ const QuizCss = () => {
           </div>
         </div>
         <div
-          className="w-1/4  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
+          className="w-3/4  h-full  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
           id="soal6"
         >
           <div>
@@ -242,7 +242,7 @@ const QuizCss = () => {
           </div>
         </div>
         <div
-          className="w-1/4  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
+          className="w-3/4  h-full  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
           id="soal7"
         >
           <div>
@@ -274,7 +274,7 @@ const QuizCss = () => {
           </div>
         </div>
         <div
-          className="w-1/4  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
+          className="w-3/4  h-full  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
           id="soal8"
         >
           <div>
@@ -306,7 +306,7 @@ const QuizCss = () => {
           </div>
         </div>
         <div
-          className="w-1/4  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
+          className="w-3/4  h-full  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
           id="soal9"
         >
           <div>
@@ -338,7 +338,7 @@ const QuizCss = () => {
           </div>
         </div>
         <div
-          className="w-1/4  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
+          className="w-3/4  h-full  bg-white p-5 rounded-xl shadow-lg text-gray-700 font-Poppins"
           id="soal10"
         >
           <div>
